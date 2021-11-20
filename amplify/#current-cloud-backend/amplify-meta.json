@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifytodo-dev-205351-authRole",
+      "UnauthRoleArn": "arn:aws:iam::442803386520:role/amplify-amplifytodo-dev-205351-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::442803386520:role/amplify-amplifytodo-dev-205351-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-amplifytodo-dev-205351-deployment",
+      "UnauthRoleName": "amplify-amplifytodo-dev-205351-unauthRole",
+      "StackName": "amplify-amplifytodo-dev-205351",
+      "StackId": "arn:aws:cloudformation:ap-south-1:442803386520:stack/amplify-amplifytodo-dev-205351/ed8d6cc0-4a15-11ec-a81f-0201e2402396",
+      "AmplifyAppId": "d223be7r6dgspb"
+    }
+  },
+  "auth": {
+    "amplifytodoe93f88fc": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "ap-south-1_MgbUqAWdL",
+        "UserPoolName": "AmplifyTest",
+        "AppClientID": "4r2ap3vgirh84fukbbpebfm0a3",
+        "AppClientIDWeb": "4r2ap3vgirh84fukbbpebfm0a3",
+        "IdentityPoolId": "ap-south-1:09eee1a7-1361-49a9-874f-66a84e3eab61",
+        "IdentityPoolName": "AmplifyTestIdentityPool"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "lastPushTimeStamp": "2021-11-20T15:29:30.800Z"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "amplifytodoe93f88fc",
+  "serviceType": "imported",
+  "region": "ap-south-1",
+  "requiredAttributes": [
+    "email"
+  ],
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [
+    "Requires Lowercase",
+    "Requires Uppercase",
+    "Requires Numbers",
+    "Requires Symbols"
+  ],
+  "mfaConfiguration": "OFF",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaTypes": []
+}
