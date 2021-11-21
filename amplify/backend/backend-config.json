@@ -1,11 +1,3 @@
 {
-  "auth": {
-    "amplifytodoe93f88fc": {
-      "service": "Cognito",
-      "serviceType": "imported",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    }
-  }
+  "auth": {}
 }

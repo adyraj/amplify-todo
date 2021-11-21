@@ -10,23 +10,6 @@
       "StackName": "amplify-amplifytodo-dev-205351",
       "StackId": "arn:aws:cloudformation:ap-south-1:442803386520:stack/amplify-amplifytodo-dev-205351/ed8d6cc0-4a15-11ec-a81f-0201e2402396",
       "AmplifyAppId": "d223be7r6dgspb"
-    },
-    "categories": {
-      "auth": {
-        "amplifytodoe93f88fc": {
-          "userPoolId": "ap-south-1_MgbUqAWdL",
-          "userPoolName": "AmplifyTest",
-          "webClientId": "4r2ap3vgirh84fukbbpebfm0a3",
-          "nativeClientId": "4r2ap3vgirh84fukbbpebfm0a3",
-          "identityPoolId": "ap-south-1:09eee1a7-1361-49a9-874f-66a84e3eab61",
-          "identityPoolName": "AmplifyTestIdentityPool",
-          "allowUnauthenticatedIdentities": false,
-          "authRoleArn": "arn:aws:iam::442803386520:role/Cognito_AmplifyTestIdentityPoolAuth_Role",
-          "authRoleName": "Cognito_AmplifyTestIdentityPoolAuth_Role",
-          "unauthRoleArn": "arn:aws:iam::442803386520:role/Cognito_AmplifyTestIdentityPoolUnauth_Role",
-          "unauthRoleName": "Cognito_AmplifyTestIdentityPoolUnauth_Role"
-        }
-      }
     }
   }
 }
